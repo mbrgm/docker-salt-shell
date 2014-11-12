@@ -1,7 +1,7 @@
 # Salt-Shell Image
 #
 
-FROM mbrgm/salt-master
+FROM mbrgm/salt-master-base
 
 RUN apt-get update \
     && apt-get -y install openssh-server \
