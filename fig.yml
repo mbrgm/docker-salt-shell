@@ -1,0 +1,11 @@
+---
+
+shell:
+  image: mbrgm/salt-shell
+  links: 
+    - master
+  volumes_from:
+    - master
+
+master:
+  image: mbrgm/salt-master
