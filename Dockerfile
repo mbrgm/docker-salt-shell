@@ -8,7 +8,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /var/run/sshd
 
-ADD assets/salt/master-shell-fixed.conf /etc/salt/master.d/
+ADD assets/salt/shell-fixed.conf /etc/salt/master.d/
 
 EXPOSE 22
 
